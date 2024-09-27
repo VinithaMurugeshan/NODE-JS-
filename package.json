@@ -1,0 +1,35 @@
+{
+  "name": "oauth-project",
+  "version": "1.0.0",
+  "main": "server.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.ts"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "@types/bcryptjs": "^2.4.6",
+    "@types/express": "^5.0.0",
+    "@types/jsonwebtoken": "^9.0.7",
+    "@types/multer": "^1.4.12",
+    "@types/node": "^22.7.3",
+    "@types/nodemon": "^1.19.6",
+    "@types/pg": "^8.11.10",
+    "@types/xlsx": "^0.0.35",
+    "ajv": "^8.17.1",
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.20.3",
+    "express": "^4.21.0",
+    "jsonwebtoken": "^9.0.2",
+    "multer": "^1.4.5-lts.1",
+    "nodemon": "^3.1.7",
+    "pg": "^8.13.0",
+    "typescript": "^5.6.2",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "ts-node": "^10.9.2"
+  }
+}
